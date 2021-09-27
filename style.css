@@ -192,11 +192,11 @@ hr {
 .project li {
   border-radius: 5px;
   overflow: hidden;
-  transition: transform .2s, box-shadow .3s;
+  transition: transform .2s, box-shadow .4s;
 }
 .project li:hover {
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  transform: scale(1.1);
+  transform: scale(1.075);
 }
 
 .project li h2 {
@@ -211,9 +211,10 @@ hr {
 .project li a {
   color: black;
   text-decoration: underline solid transparent;
-  transition: text-decoration .6s;
+  transition: text-decoration .6s, color .3s;
 }
 .project li:hover a {
+  color: #0044CC;
   text-decoration: underline solid #F5B700;
 }
 
