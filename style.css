@@ -1,5 +1,6 @@
 /* Fonts from Google Fonts - more at https://fonts.google.com */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Open+Sans&display=swap') ;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Open+Sans&display=swap&');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Oswald:wght@500&display=swap');
 
 body {
   background-color: white;
@@ -35,6 +36,22 @@ h1, h2, h3, h4, h5 {
   margin: 10px;
 }
 
+header {
+  background-color: white;
+  position: relative;
+  z-index: 2;
+  padding: 1px;
+  border-bottom: #81d7e24f solid 1px;
+}
+
+header a {
+  text-decoration: none;
+  color: #59252E;
+}
+
+header h1 {
+  font-family: 'Oswald', sans-serif;
+}
 
 
 nav {
